@@ -87,10 +87,20 @@ h1 {
     font-size: 30px;
     font-weight: bold;
 }
+.tempFInfo {
+    color: #FFF;
+    font-size: 10px;
+}
+
 .tempInfo sup {
     font-size: 15px;
     font-weight: normal;
 }
+.tempFInfo sup {
+    font-size: 5px;
+    font-weight: normal;
+}
+
 .ventoInfo span {
     font-size: 15px;
     font-weight: normal;
@@ -119,6 +129,12 @@ h1 {
 
 footer {
     margin-top: 20px;
-    color: #FFF;
+    color: #ffff00;
     font-size: 13px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffff00;
+    cursor: pointer;
 }
